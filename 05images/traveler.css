@@ -1,0 +1,142 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/* Header Stuff */
+header {
+    background-color: #EEF2F2;
+    padding: 1rem 2vw; 
+}
+header h1 {
+    margin: 0;
+    color: #345076;
+}
+header p {
+    margin: 0;
+    color: #345076;
+    letter-spacing: .5px;
+}
+
+/* Nav Stuff */
+nav { 
+    background-color: #F0CF2C;
+}
+nav ul { 
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;  
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none; 
+    color: #345076;
+    font-weight:  700;
+    display: block; 
+    padding: .75rem 2rem;
+}
+nav li.active a {
+    background-color: #345076;
+    color: #F0CF2C;
+}
+nav a:hover {
+    color: #fff;
+}
+
+/* Main Stuff */
+main { 
+    padding: 1rem 2vw; 
+}
+main h1 { 
+    color: #345076;
+}
+main h2 { 
+    color: #345076;
+    margin-bottom: .2rem;
+}
+main h3 { 
+    color: #618FCA;
+    margin-bottom: .2rem;
+}
+main p { 
+    color: #3A3B3C;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw; 
+    background-color: #f0f2f2;
+}
+main dl dt {
+    color: #618FCA;
+    font-weight: 700;
+}
+main dl dd {
+    color: #3A3B3C;
+    font-size: .93rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem; 
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #F0CF2C;
+    padding: .5rem; 
+    width: 11rem;
+    border: 1.25px solid #345076;
+    border-radius: 7px;
+}
+main a {
+    color: #345076;
+}
+main a:hover {
+    color: #618FCA;
+}
+
+figure.main {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.main img {
+    width: 100%; 
+    height: auto;
+}
+figure.main figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+
+div.results{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.results figure {
+    margin: .5rem 2% 0 0;
+}
+div.results figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #345076;
+}
+
+
+
+/* Footer Stuff */
+footer {
+    background-color: #EEF2F2;
+    text-align: center;
+    color: #345076;
+    padding: 1rem 0;
+    font-size: .85rem;
+}
+footer a {
+    color: #003369;
+}
